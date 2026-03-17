@@ -15,7 +15,7 @@ WHERE job_title_short = 'Data Analyst'
     AND job_work_from_home = True
 GROUP BY skills
 ORDER BY avg_salary DESC
-LIMIT 25
+LIMIT 25;
 /*
 Big Data & Machine Learning skills (like PySpark, Pandas, NumPy, Jupyter) are highly valued and lead to higher salaries because companies need strong data processing and prediction abilities.
 
